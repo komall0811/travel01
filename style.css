@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.home1{
+    display: flex;
+}
+ul{
+    position: absolute;
+    right: 0px;
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 14px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+header{
+    padding: 14px;
+}
+.classic{
+    display: flex;
+    flex-direction: column;
+    margin: 81px;
+    padding: 25px;
+}
+video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    
+
+}
+header h2{
+    font-size: 1.7rem;
+    color: white;
+    padding: 2px;
+    font-weight: 600;
+}
+
+
+.classic div{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.classic div p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.classic div button{
+    padding: 5px;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(104, 104, 219);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 3px;
+}
+.awesome{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    
+}
+.awesome i{
+    padding:16px;
+}
